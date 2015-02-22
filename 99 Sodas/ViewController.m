@@ -26,6 +26,8 @@
 
 - (IBAction)buttonClicked:(id)sender {
 
+    // When the button is pressed it counts down and prints to the console
+    // 99 sodas left
     for (int i = 99; i > 0; i--) {
         NSLog(@"There are %d, sodas left!", i);
     }
