@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+// 99 sodas button
+- (IBAction)buttonClicked:(id)sender;
+
 
 @end
 

@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonClicked:(id)sender {
+
+    for (int i = 99; i > 0; i--) {
+        NSLog(@"There are %d, sodas left!", i);
+    }
+
+}
 @end
